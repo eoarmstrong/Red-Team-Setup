@@ -1,0 +1,32 @@
+# Source-only repository. Add new source paths explicitly before tracking them.
+/*
+!/oscp-setup.sh
+!/README.md
+!/.gitignore
+!/.gitattributes
+!/LICENSE
+!/tests/
+!/tests/**
+/tests/.smoke.*/
+
+# Keep generated evidence and recordings out of test fixtures too.
+**/*.cast
+**/*.log
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.pdf
+**/*.mp4
+**/*.7z
+**/*.zip
+**/credentials/
+**/scans/
+**/general-log/
+**/loot/
+**/screenshots/
+**/web-documents/
+**/working/
+**/targets.txt
+**/.active-engagement
+**/proof.txt
+**/local.txt
