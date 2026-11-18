@@ -1,4 +1,4 @@
-# OSCP workspace logger
+# Red Team Setup
 
 A personal Kali Linux helper for organizing practice engagements and recording terminal sessions with asciinema. It installs zsh commands for general work, initial scans, and individual targets. This is an independent project, not an OffSec tool.
 
